@@ -23,8 +23,8 @@ const validator = (req, res, next) => {
 // define the home page route
 router.get(
   "/",
-  [query("lat").isNumeric(), query("lon").isNumeric()],
-  validator,
+  // [query("lat").isNumeric(), query("lon").isNumeric()],
+  // validator,
   async (req, res, next) => {
     const { lat, lon } = req.query;
     const apiKey = process.env.API_KEY_OW;

@@ -1,1 +1,1 @@
-# mz-financial-planning
+# mz-weather
